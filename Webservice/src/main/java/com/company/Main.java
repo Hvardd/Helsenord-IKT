@@ -20,7 +20,8 @@ public class Main {
         // starter localhost med get route
           get("/patient/:id", (req, res) -> method(req.params(":id")));
 
-          System.out.println(method("003b89e6-c7df-459a-83db-3a28db042c71"));
+          // For Testing
+        //   System.out.println(method("003b89e6-c7df-459a-83db-3a28db042c71"));
 
      }
 
